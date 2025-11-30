@@ -89,9 +89,7 @@ class Apple(GameObject):
 
 class Snake(GameObject):
     """Класс унаследованный от GameObject, описывающий змейку
-    и действия с ней.
-    """
-
+    и действия с ней."""
     def __init__(self):
         super().__init__()
         self.reset()
